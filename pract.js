@@ -146,12 +146,76 @@
 
 
 //Create a div
-let newDiv = document.createElement('div');
-newDiv.className = 'newDiv'
-newDiv.id = 'newDiv-ID'
-//ADD ATTRIBUTE
-newDiv.setAttribute('title', 'Hello Div')
-console.log(newDiv)
-//CREATE TEXT NODE IN DIV
-let newDivText
+// let newDiv = document.createElement('div');
+// newDiv.className = 'newDiv'
+// newDiv.id = 'newDiv-ID'
+// //ADD ATTRIBUTE
+// newDiv.setAttribute('title', 'Hello Div')
+// console.log(newDiv)
+// //CREATE TEXT NODE IN DIV
+// let newDivText = document.createTextNode('Hello My Dear')
+// //ADD TEXT TO newDiv
+// newDiv.appendChild(newDivText)
+// console.log(newDiv)
+
+
+
+//CLICK EVENT
+// let button = document.getElementById('button').addEventListener('click', function(){
+//     console.log(123)
+// });
+
+// let newBtn = document.getElementById('button')
+// newBtn.addEventListener('click',buttonClick)
+// function buttonClick(){
+//     console.log(1234)
+// }
+
+// let secondButton = document.getElementById('button').addEventListener('click', newBtnClick)
+// function newBtnClick(){
+//     //DIFFERENT WAYS TO DO THE SAME THING - ANY DOM SELECTOR CAN BE ATTATCHED TO AN EVENT
+//     // document.getElementById('header-title').textContent = 'Changed';
+//     // let changeHeader = document.getElementById('header-title')
+//     // changeHeader.textContent = 'This text is changed'
+//     // document.querySelector('#main').style.backgroundColor = '#f4f4f4'
+// }
+
+// let thrdBtn = document.getElementById('button')
+// thrdBtn.addEventListener('click', logThis)
+// // FUNCTION WITH PARAMATERS
+// function logThis(e){
+//     // console.log(e)
+//     // console.log(e.target) // GIVES THE ACTUAL ELEMENT THAT WAS CLICKED
+//     // console.log(e.target.id)//GET THE ID OF THE ELEMENT THAT WAS CLICKED
+//     // console.log(e.target.className)//GET ALL THE CLASSES ON THE ELEMENT
+//     // console.log(e.target.classList)//GET AN ARRAY OF THE CLASS LIST
+//     // //OUTPUTING THE ELEMENT CONTENTS
+//     // // let output = document.getElementById('output').innerHTML = '<h3>' +e.target.id+ '</h3>'
+//     // // let output = document.getElementById('output').innerHTML = '<h3>' +e.target.className+ '</h3>'
+//     // let output = document.getElementById('output').innerHTML = '<h3>' +e.target.classList+ '</h3>'
+
+//     //TYPE OF EVENT 
+//     // console.log(e.type)
+
+//     // POSITION OF MOUSE X & Y AXIS
+//     // console.log(e.clientX)
+//     // console.log(e.clientY)
+
+//     //CHECK TO SEE WHAT KEY IS PRESSED ON THE KEYBOARD WHEN CLICKEING
+//     console.log(e.altKey)
+//     console.log(e.ctrlKey)
+//     console.log(e.shiftKey)
+// }
+
+
+
+
+//MOUSE EVENTS
+let forthBtn = document.getElementById('button')
+forthBtn.addEventListener('click', runEvent)
+function runEvent(e){
+    console.log('EVENT TYPE: '+e.type)
+}
+
+
 

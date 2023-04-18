@@ -211,11 +211,321 @@
 
 
 //MOUSE EVENTS
-let forthBtn = document.getElementById('button')
-forthBtn.addEventListener('click', runEvent)
-function runEvent(e){
-    console.log('EVENT TYPE: '+e.type)
-}
+// CLICK
+// let forthBtn = document.getElementById('button')
+// forthBtn.addEventListener('click', runEvent)
+// function runEvent(e){
+//     console.log('EVENT TYPE: '+e.type)
+// }
+// 
+// 
+// DOUBLE CLICK
+// let fthBtn = document.getElementById('button')
+// fthBtn.addEventListener('dblclick', runEvent);
+// function runEvent(e){
+//     console.log('EVENT TYPE: '+e.type)
+// }
+// 
+// 
+// MOUSEDOWN
+// let sixthBtn = document.getElementById('button')
+// sixthBtn.addEventListener('mousedown', runEvent);
+// function runEvent(e){
+//     console.log('EVENT TYPE: '+e.type)
+// }
+// 
+// 
+//MOUSE UP
+//  let sixthBtn = document.getElementById('button')
+// sixthBtn.addEventListener('mouseup', runEvent);
+// function runEvent(e){
+//     console.log('EVENT TYPE: '+e.type)
+// }
+// 
+// 
+// MOUSE ENTER
+// let box = document.getElementById('box')
+// box.addEventListener('mouseenter', runEvent);
+// function runEvent(e){
+//         console.log('EVENT TYPE: '+e.type)
+//     }
+// 
+// 
+// MOUSE LEAVE - for the element it self
+// let box = document.getElementById('box')
+// box.addEventListener('mouseleave', runEvent);
+// function runEvent(e){
+//         console.log('EVENT TYPE: '+e.type)
+//     }
+// 
+// 
+// MOUSE OVER - for any inner elements inside a div or element
+// let box = document.getElementById('box')
+// box.addEventListener('mouseover', runEvent);
+// function runEvent(e){
+//         console.log('EVENT TYPE: '+e.type)
+//     }
+// 
+// 
+// MOUSE OUT
+// let box = document.getElementById('box')
+// box.addEventListener('mouseout', runEvent);
+// function runEvent(e){
+//         console.log('EVENT TYPE: '+e.type)
+//     }
+    //
+// 
+// MOUSE MOVE
+// let box = document.getElementById('box')
+// box.addEventListener('mousemove', runEvent);
+// function runEvent(e){
+//         console.log('EVENT TYPE: '+e.type)
+//         let output = document.getElementById('output')
+//         //FINDING THE LOCATION OF THE MOUSE INSIDE THE ELEMENT
+//         // output.innerHTML = '<h3>MouseX' +e.offsetX+'</h3><h3>MouseY:'+e.offsetY+'</h3>'
+//         //CHANGE THE COLOR OF THE ELEMENT BY FINDING THE LOCATION OF THE MOUSE USING OFFSET
+//         // box.style.backgroundColor = "rgb("+e.offsetX+","+e.offsetY+", 40)"
+//         // document.body.style.backgroundColor = "rgb("+e.offsetX+","+e.offsetY+", 40)"
+
+// }
+// 
+// 
+
+
+
+
+
+
+// KEY EVENTS
+// 
+// KEYDOWN
+// let itemInput = document.querySelector('input[type="text"')
+// let form = document.querySelector('form')
+// itemInput.addEventListener('keydown', runEvent)
+// function runEvent(e){
+//     console.log('EVENT TYPE: '+e.type)
+//     //GRAB THE VALUE OF THE KEY STROKE IN THE INPUT AND LOG IT INTO THE CONSOLE
+//     console.log(e.target.value)
+
+//     // GRABING THE VALUE IN THE INPUT BOX IN PUTTING IT INTO A DIV IN THE DOCUMENT
+//     let outPut = document.getElementById('output');
+//     outPut.textContent = e.target.value
+// }
+// 
+// 
+// KEY UP
+// let itemInput = document.querySelector('input[type="text"')
+// let form = document.querySelector('form')
+// itemInput.addEventListener('keyup', runEvent)
+// function runEvent(e){
+//     console.log('EVENT TYPE: '+e.type)
+//     //GRAB THE VALUE OF THE KEY STROKE IN THE INPUT AND LOG IT INTO THE CONSOLE
+//     console.log(e.target.value)
+
+//     // GRABING THE VALUE IN THE INPUT BOX IN PUTTING IT INTO A DIV IN THE DOCUMENT
+//     let outPut = document.getElementById('output');
+//     outPut.textContent = e.target.value
+// }
+// 
+// 
+// 
+// KEY PRESS
+// let itemInput = document.querySelector('input[type="text"')
+// let form = document.querySelector('form')
+// itemInput.addEventListener('keypress', runEvent)
+// function runEvent(e){
+//     console.log('EVENT TYPE: '+e.type)
+//     //GRAB THE VALUE OF THE KEY STROKE IN THE INPUT AND LOG IT INTO THE CONSOLE
+//     console.log(e.target.value)
+
+//     // GRABING THE VALUE IN THE INPUT BOX IN PUTTING IT INTO A DIV IN THE DOCUMENT
+//     let outPut = document.getElementById('output');
+//     outPut.textContent = e.target.value
+// }
+
+
+
+
+
+// FOCUS AND BLUR EVENTS
+// FOCUS
+// let itemInput = document.querySelector('input[type="text"')
+// let form = document.querySelector('form')
+// itemInput.addEventListener('focus', runEvent)
+// function runEvent(e){
+//     console.log('EVENT TYPE: '+e.type)
+//     //GRAB THE VALUE OF THE KEY STROKE IN THE INPUT AND LOG IT INTO THE CONSOLE
+//     console.log(e.target.value)
+
+//     // GRABING THE VALUE IN THE INPUT BOX IN PUTTING IT INTO A DIV IN THE DOCUMENT
+//     let outPut = document.getElementById('output');
+//     outPut.textContent = e.target.value
+// }
+// 
+// BLUR
+// let itemInput = document.querySelector('input[type="text"')
+// let form = document.querySelector('form')
+// itemInput.addEventListener('blur', runEvent)
+// function runEvent(e){
+//     console.log('EVENT TYPE: '+e.type)
+//     //GRAB THE VALUE OF THE KEY STROKE IN THE INPUT AND LOG IT INTO THE CONSOLE
+//     console.log(e.target.value)
+
+//     // GRABING THE VALUE IN THE INPUT BOX IN PUTTING IT INTO A DIV IN THE DOCUMENT
+//     let outPut = document.getElementById('output');
+//     outPut.textContent = e.target.value
+// }
+
+
+
+// CUT AND PASTE
+// CUT
+// let itemInput = document.querySelector('input[type="text"')
+// let form = document.querySelector('form')
+// itemInput.addEventListener('cut', runEvent)
+// function runEvent(e){
+//     console.log('EVENT TYPE: '+e.type)
+//     //GRAB THE VALUE OF THE KEY STROKE IN THE INPUT AND LOG IT INTO THE CONSOLE
+//     console.log(e.target.value)
+
+//     // GRABING THE VALUE IN THE INPUT BOX IN PUTTING IT INTO A DIV IN THE DOCUMENT
+//     let outPut = document.getElementById('output');
+//     outPut.textContent = e.target.value
+// }
+// 
+// PASTE
+// let itemInput = document.querySelector('input[type="text"')
+// let form = document.querySelector('form')
+// itemInput.addEventListener('paste', runEvent)
+// function runEvent(e){
+//     console.log('EVENT TYPE: '+e.type)
+//     //GRAB THE VALUE OF THE KEY STROKE IN THE INPUT AND LOG IT INTO THE CONSOLE
+//     console.log(e.target.value)
+
+//     // GRABING THE VALUE IN THE INPUT BOX IN PUTTING IT INTO A DIV IN THE DOCUMENT
+//     let outPut = document.getElementById('output');
+//     outPut.textContent = e.target.value
+// }
+
+
+
+// CHANGE EVENT and INPUT
+// let select = document.querySelector('select')
+// select.addEventListener('change',runEvent)
+// select.addEventListener('input',runEvent) //INPUT THE VALUE OF THE SELECT INTO THE DIV
+// function runEvent(e){
+//     console.log('EVENT TYPE: '+e.type)
+//     //GRAB THE VALUE OF THE KEY STROKE IN THE INPUT AND LOG IT INTO THE CONSOLE
+//     console.log(e.target.value)
+
+//     // GRABING THE VALUE IN THE INPUT BOX IN PUTTING IT INTO A DIV IN THE DOCUMENT
+//     let outPut = document.getElementById('output');
+//     outPut.textContent = e.target.value
+// }
+
+
+
+// SUBMIT BUTTON
+// let form = document.querySelector('form')
+// form.addEventListener('submit', runEvent)
+
+//  function runEvent(e){
+//         e.preventDefault()//STOPS THE EVENT FROM SUBMITTING TO THE WRONG THING
+//         console.log('EVENT TYPE: '+e.type)
+//         //GRAB THE VALUE OF THE KEY STROKE IN THE INPUT AND LOG IT INTO THE CONSOLE
+//         console.log(e.target.value)
+    
+//         // GRABING THE VALUE IN THE INPUT BOX IN PUTTING IT INTO A DIV IN THE DOCUMENT
+//         let outPut = document.getElementById('output');
+//         outPut.textContent = e.target.value
+//     }
+    
+
+
+//FORM EVENTS
+// 
+// FORM SUBMIT EVENT - ADD ITEMS
+// let form = document.getElementById('addForm')
+// let itemList = document.getElementById('items')
+// form.addEventListener('submit', addItem)
+// function addItem(e){
+//     e.preventDefault();
+//     console.log(1)
+    
+//     //GET INPUT VALUE
+//     let newItem = document.getElementById('item').value
+//     //CREATE NEW LI ELEMENT
+//     let li = document.createElement('li')
+//     li.className = 'list-group-item'
+//     console.log(li)
+//     //ADD TEXT FROM THE INPUT VALUE TO THE ITEM LIST
+//    li.appendChild(document.createTextNode(newItem))
+//    //CREATE A DELETE BUTTON ELEMTN FOR THE NEW LIST ITEM
+//    //ADD THE SAME CLASS AS ALL OTHER DELETE BTNS ON THE DOCUMENT
+//    let deletBtn = document.createElement('button')
+//    deletBtn.className = 'btn btn-danger btn-sm float-right delete'
+//    //APPEND TEXT NODE
+//    deletBtn.appendChild(document.createTextNode(' X'))
+//    //APPEND BTN TO LI
+//    li.appendChild(deletBtn)
+//    itemList.appendChild(li)
+// }
+
+// //DELETE ITEMS
+// itemList.addEventListener('click', removeItem)
+// function removeItem(e){
+//     //CHECK TO SEE WHAT YOU ARE CLICKING HAD THE CLASS "DELETE"
+//     //  if(e.target.classList.contains('delete')){
+//     //     console.log(1)
+//     //     //CONFIRMATION BOX
+//     //     if(confirm('Are you sure?')){
+//     //         let li = e.target.parentElement;
+//     //         itemList.removeChild(li)
+//     //     }
+//     //  }
+
+
+//     //DELETE WITHOUT CONFIRMATION BOX OPTION
+//      if(e.target.classList.contains('delete')){
+//         let li = e.target.parentElement;
+//         itemList.removeChild(li)
+//     }
+// }
+
+
+// //FILTER ITEMS
+// let filter = document.getElementById('filter')
+// filter.addEventListener('keyup', filterItems)
+// function filterItems(e){
+//     //CONVERT TEXT TO LOWERCASE FROM SEARCH BOX
+//     let text = e.target.value.toLowerCase(); //CHANGE THE VALUE IN THE INPUT BOX TO LOWERCASE IN THE LIST
+//     console.log(text)
+//     //GRAB ALL LI'S IN ITEM LIST
+//     let items = itemList.getElementsByTagName('li'); 
+//     //CONVERT LI'S TO AN ARRAY
+//     Array.from(items).forEach(function(item){
+//         let itemName = item.firstChild.textContent; //GETTING THE ITEM NAME
+//         console.log(itemName)
+//         //COMPARE THE ITEM NAME TO THE SEARCH BOX TEXT TO FILTER ITEMS 
+//         //IF IT IS NOT A MATCH THEN IT WILL EQUAL -1. If it is not equal to -1 then it is a match
+//         //!= (NOT EQUAL TO)
+//         if(itemName.toLowerCase().indexOf(text) != -1){
+//             item.style.display = 'block' //want to show the item
+//         } else{
+//             item.style.display = 'none';//do not show anything if it does not match
+//         }
+//     })
+// }
+
+
+
+
+
+    
+    
+
+    
+
 
 
 

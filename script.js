@@ -60,3 +60,33 @@ function game(e){
 //                 console.log(play(playerSelection, computerSelection))
 
 // console.log(game())
+ 
+
+function computerPlay(){
+    const computerArray = ['Rock', 'Paper', 'Scissors'];
+    let item = computerArray[Math.floor(Math.random()*computerArray.length)]
+    // console.log(item)
+    return item;
+}
+
+let computerChoice = computerPlay();
+let rkBtn = document.getElementById('rkBtn')
+let pprBtn = document.getElementById('pprBtn')
+let scrBtn = document.getElementById('scrBtn')
+rkBtn.addEventListener('click',playeGame)
+// pprBtn.addEventListener('click',playeGame('PAPER', computerChoice))
+// scrBtn.addEventListener('click',playeGame('SCISSORS', computerChoice))
+
+function playeGame(e){
+    function game(playerSelection, computerSelection){
+        console.log( )
+
+    }
+    // return playerSelection, computerSelection
+    console.log(e.type)
+    // if(rkBtn.id === true){
+    //     console.log(rkBtn.id +" "+computerSelection)
+    // }
+    game(playerSelection, computerSelection)
+}
+
